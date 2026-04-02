@@ -10,16 +10,18 @@ It provides:
 
 ## Live Project
 
-- Frontend (Live): ADD_YOUR_FRONTEND_LIVE_LINK_HERE
-- Backend (Live API): ADD_YOUR_BACKEND_LIVE_LINK_HERE
+https://visionxaid.onrender.com/
 
 ## Project Screenshots
 
 Replace these placeholders with your project screenshots.
 
 ![Landing Page](ADD_SCREENSHOT_LINK_1)
-![Prediction Page](ADD_SCREENSHOT_LINK_2)
-![Result and Heatmap](ADD_SCREENSHOT_LINK_3)
+![Features Page](ADD_SCREENSHOT_LINK_1)
+![Testimony Page](ADD_SCREENSHOT_LINK_1)
+![CTA Page](ADD_SCREENSHOT_LINK_1)
+![Info Page](ADD_SCREENSHOT_LINK_2)
+![Predict Page](ADD_SCREENSHOT_LINK_3)
 
 ## Tech Stack
 
