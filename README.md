@@ -63,7 +63,7 @@ visionxaid/
 
 Use your repository URL:
 
-	git clone YOUR_REPO_URL_HERE
+	git clone https://github.com/Neil-Varghese/Visionxaid
 	cd VisionXaid
 
 ## 2) Frontend Setup (React + Vite)
