@@ -1,16 +1,138 @@
-# React + Vite
+# VisionXaid
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+VisionXaid is an AI-powered retinal disease screening web application.
+It provides:
 
-Currently, two official plugins are available:
+- Fundus image upload and prediction
+- Class probabilities for supported retinal conditions
+- Grad-CAM heatmap for visual explainability
+- Downloadable PDF report of prediction output
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Live Project
 
-## React Compiler
+- Frontend (Live): ADD_YOUR_FRONTEND_LIVE_LINK_HERE
+- Backend (Live API): ADD_YOUR_BACKEND_LIVE_LINK_HERE
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Project Screenshots
 
-## Expanding the ESLint configuration
+Replace these placeholders with your project screenshots.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+![Landing Page](ADD_SCREENSHOT_LINK_1)
+![Prediction Page](ADD_SCREENSHOT_LINK_2)
+![Result and Heatmap](ADD_SCREENSHOT_LINK_3)
+
+## Tech Stack
+
+Frontend:
+- React + Vite
+- Tailwind CSS
+
+Backend:
+- FastAPI
+- TensorFlow / Keras
+- OpenCV, Pillow, NumPy
+- ReportLab (PDF generation)
+
+## Repository Structure
+
+visionxaid/
+- src/                 -> React frontend source
+- backend/app/         -> FastAPI app code
+- backend/models/      -> ML model file (v50.keras)
+- backend/requirements.txt
+- package.json
+
+## Run Locally
+
+## 1) Clone the Repository
+
+Use your repository URL:
+
+	git clone YOUR_REPO_URL_HERE
+	cd VisionXaid
+
+## 2) Frontend Setup (React + Vite)
+
+From project root:
+
+	npm install
+
+Create a .env file in the project root:
+
+	VITE_API_URL=http://localhost:8000
+
+Start frontend:
+
+	npm run dev
+
+Frontend runs at:
+- http://localhost:5173
+
+## 3) Backend Setup (FastAPI)
+
+From project root:
+
+	cd backend
+
+Create and activate a virtual environment.
+
+Windows (PowerShell):
+
+	python -m venv .venv
+	.\.venv\Scripts\Activate.ps1
+
+Install dependencies:
+
+	pip install -r requirements.txt
+
+Ensure the model exists at:
+- backend/models/v50.keras
+
+Optional environment variable (for CORS):
+
+	ALLOWED_ORIGINS=http://localhost:5173
+
+Run backend server:
+
+	uvicorn app.main:app --host 0.0.0.0 --port 8000 --reload
+
+Backend runs at:
+- http://localhost:8000
+
+## 4) Verify Backend Health
+
+Open:
+- http://localhost:8000/health
+
+Expected response includes model_loaded and status fields.
+
+## 5) Use the App
+
+1. Open frontend at http://localhost:5173
+2. Upload a fundus image from the prediction page
+3. Review predicted class, confidence scores, and Grad-CAM heatmap
+4. Download PDF report if needed
+
+## API Endpoints (Local)
+
+- GET /               -> API info
+- GET /health         -> Health status
+- POST /predict       -> Image prediction
+- POST /report        -> Generate PDF report
+
+## Common Issues
+
+1. Model not loaded:
+- Check that backend/models/v50.keras exists.
+
+2. CORS error in browser:
+- Set ALLOWED_ORIGINS to include http://localhost:5173.
+
+3. Frontend cannot reach backend:
+- Verify VITE_API_URL in root .env is http://localhost:8000.
+- Ensure backend server is running.
+
+## Notes
+
+- This is a clinical decision-support/research prototype.
+- It is not a replacement for professional ophthalmic diagnosis.
