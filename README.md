@@ -14,14 +14,17 @@ https://visionxaid.onrender.com/
 
 ## Project Screenshots
 
-Replace these placeholders with your project screenshots.
+<p align="center">
+  <img src="https://github.com/Neil-Varghese/Visionxaid/raw/main/src/assets/landing.png" width="30%" />
+  <img src="https://github.com/Neil-Varghese/Visionxaid/raw/main/src/assets/features.png" width="30%" />
+  <img src="https://github.com/Neil-Varghese/Visionxaid/raw/main/src/assets/predict.png" width="30%" />
+</p>
 
-![Landing Page](ADD_SCREENSHOT_LINK_1)
-![Features Page](ADD_SCREENSHOT_LINK_1)
-![Testimony Page](ADD_SCREENSHOT_LINK_1)
-![CTA Page](ADD_SCREENSHOT_LINK_1)
-![Info Page](ADD_SCREENSHOT_LINK_2)
-![Predict Page](ADD_SCREENSHOT_LINK_3)
+<p align="center">
+  <img src="https://github.com/Neil-Varghese/Visionxaid/raw/main/src/assets/testimony.png" width="30%" />
+  <img src="https://github.com/Neil-Varghese/Visionxaid/raw/main/src/assets/cta.png" width="30%" />
+  <img src="https://github.com/Neil-Varghese/Visionxaid/raw/main/src/assets/nerdystuff.png" width="30%" />
+</p>
 
 ## Tech Stack
 
