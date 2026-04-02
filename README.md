@@ -14,16 +14,26 @@ https://visionxaid.onrender.com/
 
 ## Project Screenshots
 
+### Landing & Features
 <p align="center">
-  <img src="https://github.com/Neil-Varghese/Visionxaid/raw/main/src/assets/landing.png" width="30%" />
-  <img src="https://github.com/Neil-Varghese/Visionxaid/raw/main/src/assets/features.png" width="30%" />
-  <img src="https://github.com/Neil-Varghese/Visionxaid/raw/main/src/assets/predict.png" width="30%" />
+  <img src="https://github.com/Neil-Varghese/Visionxaid/raw/main/src/assets/landing.png" width="45%" />
+  <img src="https://github.com/Neil-Varghese/Visionxaid/raw/main/src/assets/features.png" width="45%" />
 </p>
 
+<br/>
+
+### Prediction & Analysis
 <p align="center">
-  <img src="https://github.com/Neil-Varghese/Visionxaid/raw/main/src/assets/testimony.png" width="30%" />
-  <img src="https://github.com/Neil-Varghese/Visionxaid/raw/main/src/assets/cta.png" width="30%" />
-  <img src="https://github.com/Neil-Varghese/Visionxaid/raw/main/src/assets/nerdystuff.png" width="30%" />
+  <img src="https://github.com/Neil-Varghese/Visionxaid/raw/main/src/assets/predict.png" width="45%" />
+  <img src="https://github.com/Neil-Varghese/Visionxaid/raw/main/src/assets/nerdystuff.png" width="45%" />
+</p>
+
+<br/>
+
+### UI Components
+<p align="center">
+  <img src="https://github.com/Neil-Varghese/Visionxaid/raw/main/src/assets/testimony.png" width="45%" />
+  <img src="https://github.com/Neil-Varghese/Visionxaid/raw/main/src/assets/cta.png" width="45%" />
 </p>
 
 ## Tech Stack
