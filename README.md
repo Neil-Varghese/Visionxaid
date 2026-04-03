@@ -8,10 +8,6 @@ It provides:
 - Grad-CAM heatmap for visual explainability
 - Downloadable PDF report of prediction output
 
-## Live Project
-
-https://visionxaid.onrender.com/
-
 ## Project Screenshots
 
 ### Landing & Features
