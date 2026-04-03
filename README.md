@@ -8,6 +8,7 @@ It provides:
 - Grad-CAM heatmap for visual explainability
 - Downloadable PDF report of prediction output
 
+
 ## Project Screenshots
 
 ### Landing & Features
